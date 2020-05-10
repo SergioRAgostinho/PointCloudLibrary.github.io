@@ -28,6 +28,7 @@ Nevertheless, we also provide packaged binaries and installers for a couple of p
 In case your OS does not have a dedicated package manager, consider one of the following options.
 
 ### vcpkg
+[![vcpkg version](https://repology.org/badge/version-for-repo/vcpkg/pcl-pointclouds.svg?header=Version)](https://github.com/Microsoft/vcpkg/tree/master/ports/pcl)
 
 [vcpkg](https://github.com/microsoft/vcpkg) is a cross-platform open source package manager created by Microsoft, available for Windows, Linux and macOS. To install PCL on vcpkg-enabled desktops type the following on your terminal
 
@@ -38,6 +39,8 @@ PS> .\vcpkg install pcl
 This is our recommended installation method for **Windows** users.
 
 ### Homebrew
+[![Homebrew package](https://repology.org/badge/version-for-repo/linuxbrew/pcl-pointclouds.svg)](https://formulae.brew.sh/formula/pcl)
+[![Linuxbrew package](https://repology.org/badge/version-for-repo/homebrew/pcl-pointclouds.svg)](https://formulae.brew.sh/formula-linux/pcl)
 
 [Homebrew](https://brew.sh/) became known as being missing package manager for macOS, but in recent years it extended its support to Linux. To install PCL on Homebrew-enabled desktops type the following on your terminal
 
@@ -49,6 +52,10 @@ This is our recommended installation method for **macOS** users.
 
 
 ## Linux
+[![Ubuntu 16.04](https://repology.org/badge/version-for-repo/ubuntu_16_04/pcl-pointclouds.svg?header=Ubuntu+16.04)](https://packages.ubuntu.com/source/xenial/pcl)
+[![Ubuntu 18.04](https://repology.org/badge/version-for-repo/ubuntu_18_04/pcl-pointclouds.svg?header=Ubuntu+18.04)](https://packages.ubuntu.com/source/bionic/pcl)
+[![Ubuntu 19.10](https://repology.org/badge/version-for-repo/ubuntu_19_10/pcl-pointclouds.svg?header=Ubuntu+19.10)](https://packages.ubuntu.com/source/eoan/pcl)
+[![Ubuntu 20.04](https://repology.org/badge/version-for-repo/ubuntu_20_04/pcl-pointclouds.svg?header=Ubuntu+20.04)](https://packages.ubuntu.com/source/groovy/pcl)
 
 PCL is available in a number of Linux distributions namely Ubuntu, Debian, Fedora, Gentoo and Arch Linux systems to name a few. Below we provide installation instructions Ubuntu and Debian. You can install pcl using
 
